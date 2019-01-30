@@ -1,0 +1,60 @@
+h1.fancytext {
+	font-size: 150px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 150px;
+}
+
+h2.introtext {
+	font-weight: normal;
+	font-size:30px;
+	margin-top:0px;
+	margin-left: 250px;
+	text-transform: uppercase;
+	color: #B40431;
+}
+
+.sectiontitle {
+	font-family: "Sarabun", sans-serif;
+	font-size:30px;
+	color: #B40431;
+}
+
+.introtext {
+	font-family: "Sarabun", sans-serif;
+	font-size: 16px;
+	color: #B40431;
+}
+
+.fancytext {
+	font-family: "Crimson Text", serif;
+	font-size: 22px;
+}
+
+section {
+	margin-top: 120px;
+	margin-left: 22px
+}
+
+
+#bold {
+	font-weight: bold;
+}
+
+#italic {
+	font-style: italic;
+}
+
+#letterspacing {
+	letter-spacing: -2px;
+}
+
+
+
+#uppercase {
+	text-transform: uppercase;
+}
+
+#underline {
+	text-decoration: underline;
+}
