@@ -6,7 +6,9 @@ body {
 
 header {
 	text-align:center;
-	background-color:rgba(255,0,0,.5);
+	/*background-color:rgba(255,0,0,.5);*/
+	background-image:url('../images/lanterns.jpg');
+	background-size: cover;
 	height:480px; /*CAN "TRANSFORM" THAT BOX TO CHECK BY EDITING IN INSPECTOR!!*/
 	padding-top:150px;
 	box-sizing: border-box; /*TO MAKE SURE THE PADDING-TOP GOES INTO THE 480PX*/
@@ -20,14 +22,17 @@ h1, h2, h3, h4, h5, p {
 header h1 {
 	font-size: 80px;
 	margin-bottom:0px;
+	color:#44130B;
 }
 
 header h2 {
 	font-size:30px;
+	color:#44130B;
 }
 
 #section_one {
-	background-color: rgba(255,194,25,.5);
+	/*background-color: rgba(255,194,25,.5);*/
+	background-color:#58121F;
 	height:712px;
 	box-sizing: border-box;
 	padding-top: 30px;
@@ -43,6 +48,7 @@ section h3 {
 	font-size:40px;
 	padding-top:7px;
 	margin-bottom:32px;
+	color:#fff;
 }
 
 section p {
@@ -50,6 +56,7 @@ section p {
 	margin-top: 0px;
 	line-height: 25px;
 	margin-bottom:18px;
+	color:#fff;
 }
 
 .redfloated {
@@ -60,33 +67,39 @@ section p {
 }
 
 #section_two {
-	background-color: rgba(97,173,255,.5);
+	background-color:#AB98A8;
 	height:690px;
 	box-sizing: border-box;
 	padding-top:32px;
 	margin-bottom:0;
 }
 
+#section_two h3{
+	color:#20031D;
+}
+
 .smallimage {
 	vertical-align: middle;
 	display:inline-block;
 	padding-left: 0;
-	/*padding-right: 76px;*/
+	padding-right: 67px;
 	padding-bottom:18px;
 }
 
 .boxoftext {
+	vertical-align: top;
 	margin-top: 0;
 	padding-top: 0;
 	display:inline-block;
 	width:200px;
-	padding-left: 10px;
+	padding-left: 9px;
 }
 
 .boxoftext h4 {
-	font-size: 18px;
+	font-size: 20px;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 5px;
+	padding-top:2px;
 }
 
 .boxoftext p {
@@ -94,4 +107,33 @@ section p {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-top: 0;
+}
+
+#section_three {
+	/*background-color: rgba(255,194,25,.5);*/
+	background-color:#58121F;
+	height:398px;
+	box-sizing: border-box;
+	padding-top: 30px;
+	margin-bottom:0;
+}
+
+#section_three p {
+	display:inline-block;
+	width:720px;
+	font-size:26px;
+	text-align:center;
+	padding-left:120px;
+	line-height:35px;
+}
+
+#footer {
+	margin-top: 0;
+	background-color:#20031D;
+	height:100px;
+	box-sizing: border-box;
+}
+
+#footer p{
+	padding-top: 40px;
 }
