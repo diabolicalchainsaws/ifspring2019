@@ -1,0 +1,45 @@
+	#section_one aside {
+			float:right;
+		}
+
+		#section_two {
+			position:relative;
+		}
+
+		#section_two aside {
+			position:absolute;
+			right:0;
+			bottom:0px;
+		}
+
+		#section_three aside{
+			background-color:green;
+			position:fixed;
+			top:0;
+			right:0;
+		}
+
+		#section_four {
+			position:relative;
+		}
+
+		#redcallout {
+			background-color:red;
+			position: absolute;
+			top:50%;
+			left:50%;
+			transform: translate(-50%,-50%); /*TRANSLATE MOVES A THING -- THIS 50% IS BASED ON THE SIZE OF THE ELEMENT, NOT ITS PARENT ELEMENT*/ 
+			z-index:2;
+		}
+
+		#blackcallout {
+			background-color:black;
+			position: absolute;
+			top:50%;
+			left:50%;
+			transform: translate(-50%,-50%); 
+			margin-top:10px; /*Margins work here, BUT YOU CAN ALSO USE calc()*/
+			margin-left:10px;
+			/*transform:translate(calc(-50% + 10px),(-50% + 10px));*/
+			z-index:1;
+		}
