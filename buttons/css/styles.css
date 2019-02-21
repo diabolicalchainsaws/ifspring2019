@@ -650,3 +650,15 @@ a#btn_thecolorrun:hover {
 .magenta:hover {
 	color:#01DFA5;
 }
+
+.middleblue:active {
+	color:#A9A9F5;
+}
+
+.yellow:active {
+	color:#F79F81;
+}
+
+.magenta:active {
+	color:#D0A9F5;
+}
