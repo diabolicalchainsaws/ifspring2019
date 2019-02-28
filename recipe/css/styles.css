@@ -1,0 +1,131 @@
+body {
+	font-family: 'Muli', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin-top:0;
+}
+
+header {
+	text-align:center;
+	box-sizing:border-box;
+	height:750px;
+	/*background-color:#F7F2E0;*/
+	padding-top:200px;
+}
+
+header h1 {
+	font-size: 160px;
+	margin-bottom:0;
+}
+
+#boxthisdude {
+	font-size:32px;
+	font-weight:lighter;
+	vertical-align: top;
+	margin-top: 0;
+	padding-top: 0;
+	display:inline-block;
+	width:500px;
+	padding-left: 9px;
+	margin-bottom:36px;
+}
+
+#footnote {
+	font-size:24px;
+}
+
+.photosection {
+	height:700px;
+	background-image: url("../images/onigiri.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.ingredients {
+	text-align:center;
+	box-sizing:border-box;
+	height:900px;
+/*	background-color:#F7F2E0;
+*/	padding-top:100px;
+}
+
+h2 {
+	font-size:60px;	
+	text-align: center;
+}
+
+.ingredient_box {
+	margin-top: 0;
+	margin-bottom:30px;
+}
+
+#ingredient_proper {
+	font-size:48px;
+	text-transform:uppercase;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+#ingredient_note {
+	font-size:30px;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+
+.instructions {
+	box-sizing:border-box;
+	height:2900px;
+/*	background-color:#D0F5A9;
+*/	padding-top:100px;
+}
+
+.instructions p, li{
+	font-size:48px;
+}
+
+.instructions li {
+	text-align:left;
+}
+
+.instructions p {
+	text-align:center;
+	padding-top: 100px;
+}
+
+.center_column {
+	width:650px;
+	margin:auto;/*TO CENTER IT*/
+}
+
+.highlight {
+	color:#DF7401;
+}
+
+.gridsection {
+	height:700px;
+	background-image: url("../images/steps.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.tips {
+	box-sizing:border-box;
+	height:2500px;
+/*	background-color:#F7F2E0;
+*/	padding-top:100px;
+}
+
+.tips li {
+	padding-top: 50px;
+}
+
+footer {
+	margin-top: 0;
+	background-color:black;
+	color:white;
+	height:150px;
+	box-sizing: border-box;
+	padding-top: 20px;
+}
