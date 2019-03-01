@@ -42,6 +42,17 @@ header h1 {
 	background-repeat: no-repeat;
 }
 
+.photocredit {
+	font-size: 30px;
+	text-align:center;
+	color:#D5D5D5;
+/*	background-color:pink;
+*/	height:80px;
+	padding-top:30px;
+
+}
+
+
 .ingredients {
 	text-align:center;
 	box-sizing:border-box;
@@ -76,7 +87,7 @@ h2 {
 
 .instructions {
 	box-sizing:border-box;
-	height:2900px;
+	height:3300px;
 /*	background-color:#D0F5A9;
 */	padding-top:100px;
 }
@@ -110,9 +121,24 @@ h2 {
 	background-repeat: no-repeat;
 }
 
+.gridcredit {
+	font-size: 30px;
+	text-align:center;
+	color:#D5D5D5;
+/*	background-color:pink;
+*/	height:80px;
+	padding-top:30px;
+
+}
+
+.gridcredit a {
+	font-size: 30px;
+	color:#D5D5D5;
+}
+
 .tips {
 	box-sizing:border-box;
-	height:2500px;
+	height:2750px;
 /*	background-color:#F7F2E0;
 */	padding-top:100px;
 }
@@ -125,7 +151,7 @@ footer {
 	margin-top: 0;
 	background-color:black;
 	color:white;
-	height:150px;
+	height:80px;
 	box-sizing: border-box;
-	padding-top: 20px;
+	padding-top: 25px;
 }
