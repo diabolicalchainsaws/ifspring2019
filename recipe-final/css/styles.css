@@ -33,11 +33,12 @@ header h1 {
 #footnote {
 	font-size:10px;
 }
-
 .photosection {
 	height:240px;
+	width:376px;
+	margin:auto;
 	background-image: url("../images/onigiri.jpg");
-	background-size:cover;
+	background-size:376px,240px;
 	background-repeat: no-repeat;
 }
 
@@ -117,9 +118,11 @@ h2 {
 }
 
 .gridsection {
+	width:344px;
 	height:240px;
+	margin:auto;
 	background-image: url("../images/steps.jpg");
-	background-size:cover;
+	background-size:344px, 240px;
 	background-repeat: no-repeat;
 }
 
