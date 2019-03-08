@@ -1,160 +1,313 @@
 body {
+
 	font-family: 'Muli', sans-serif;
+
 }
+
+
 
 h1, h2, h3, h4, h5, p {
+
 	margin-top:0;
+
 }
+
+
 
 header {
+
 	text-align:center;
+
 	box-sizing:border-box;
-	height:330px;
-/*	background-color:#F7F2E0;
-*/	padding-top:90px;
+
+	height:750px;
+
+	/*background-color:#F7F2E0;*/
+
+	padding-top:200px;
+
 }
+
+
 
 header h1 {
-	font-size: 64px;
+
+	font-size: 160px;
+
 	margin-bottom:0;
+
 }
+
+
 
 #boxthisdude {
-	font-size:16px;
+
+	font-size:32px;
+
 	font-weight:lighter;
+
 	vertical-align: top;
+
 	margin-top: 0;
+
 	padding-top: 0;
+
 	display:inline-block;
-	width:220px;
-	margin-bottom:26px;
+
+	width:500px;
+
+	padding-left: 9px;
+
+	margin-bottom:36px;
+
 }
+
+
 
 #footnote {
-	font-size:10px;
+
+	font-size:24px;
+
 }
+
+
 
 .photosection {
-	height:240px;
+
+	height:700px;
+
 	background-image: url("../images/onigiri.jpg");
+
 	background-size:cover;
+
 	background-repeat: no-repeat;
+
 }
 
+
+
 .photocredit {
-	font-size: 10px;
+
+	font-size: 30px;
+
 	text-align:center;
+
 	color:#D5D5D5;
+
 /*	background-color:pink;
+
 */	height:80px;
-	padding-top:10px;
-	margin-bottom: 0;
+
+	padding-top:30px;
+
+
+
 }
+
+
+
 
 
 .ingredients {
+
 	text-align:center;
+
 	box-sizing:border-box;
-	height:320px;
+
+	height:900px;
+
 /*	background-color:#F7F2E0;
-*/	/*padding-top:20px;*/
+
+*/	padding-top:100px;
+
 }
+
+
 
 h2 {
-	font-size:26px;	
+
+	font-size:60px;	
+
 	text-align: center;
+
 }
+
+
 
 .ingredient_box {
+
 	margin-top: 0;
-	margin-bottom:10px;
+
+	margin-bottom:30px;
+
 }
+
+
 
 #ingredient_proper {
-	font-size:22px;
+
+	font-size:48px;
+
 	text-transform:uppercase;
+
 	margin-top:0;
+
 	margin-bottom:0;
+
 }
 
+
+
 #ingredient_note {
-	font-size:12px;
+
+	font-size:30px;
+
 	margin-top:0;
+
 	margin-bottom:0;
+
 }
+
+
+
 
 
 .instructions {
+
 	box-sizing:border-box;
-	height:1050px;
+
+	height:3300px;
+
 /*	background-color:#D0F5A9;
-*/	padding-top:36px;
+
+*/	padding-top:100px;
+
 }
+
+
 
 .instructions p, li{
-	font-size:16px;
+
+	font-size:48px;
+
 }
+
+
 
 .instructions li {
+
 	text-align:left;
-	padding-top:10px;
+
 }
+
+
 
 .instructions p {
+
 	text-align:center;
-	padding-top: 20px;
+
+	padding-top: 100px;
+
 }
+
+
 
 .center_column {
-	width:270px;
+
+	width:650px;
+
 	margin:auto;/*TO CENTER IT*/
-	padding-left: 0;
-	padding-right:0;
+
 }
+
+
 
 .highlight {
+
 	color:#DF7401;
+
 }
+
+
 
 .gridsection {
-	height:240px;
+
+	height:700px;
+
 	background-image: url("../images/steps.jpg");
+
 	background-size:cover;
+
 	background-repeat: no-repeat;
+
 }
+
+
 
 .gridcredit {
-	font-size: 10px;
+
+	font-size: 30px;
+
 	text-align:center;
+
 	color:#D5D5D5;
+
 /*	background-color:pink;
+
 */	height:80px;
-	padding-top:10px;
+
+	padding-top:30px;
+
+
+
 }
+
+
 
 .gridcredit a {
-	font-size: 10px;
+
+	font-size: 30px;
+
 	color:#D5D5D5;
+
 }
+
+
 
 .tips {
+
 	box-sizing:border-box;
-	height:750px;
+
+	height:2750px;
+
 /*	background-color:#F7F2E0;
-*/	padding-top:0px;
+
+*/	padding-top:100px;
+
 }
+
+
 
 .tips li {
-	padding-top: 10px;
+
+	padding-top: 50px;
+
 }
+
+
 
 footer {
-	margin-top: 0;
-	background-color:black;
-	font-size:10px;
-	color:white;
-	height:30px;
-	box-sizing: border-box;
-	padding-top: 8px;
-}
 
+	margin-top: 0;
+
+	background-color:black;
+
+	color:white;
+
+	height:80px;
+
+	box-sizing: border-box;
+
+	padding-top: 25px;
+
+}
