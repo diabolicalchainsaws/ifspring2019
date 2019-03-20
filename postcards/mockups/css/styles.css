@@ -1,0 +1,47 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Fenix', serif;
+	color:white;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin-top:0;
+}
+
+h1 {
+	font-weight:none;
+	font-size:40px;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:0;
+}
+
+h2 {
+	font-weight:none;
+	font-size:16px;
+	text-align:center;
+	padding-top:0;
+	padding-bottom:20px;
+}
+
+body {
+	background-color:black;
+}
+
+img {
+	display:block;
+	margin:auto;
+}
+
+.desktop img {
+	width:80%;
+	height:80%;
+	margin-bottom:4px;
+}
+
+.mobile img {
+	width:30%;
+	height:30%;
+	margin-bottom:4px;
+}
