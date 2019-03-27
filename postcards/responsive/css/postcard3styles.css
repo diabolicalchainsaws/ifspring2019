@@ -1,0 +1,254 @@
+a {
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	z-index:100;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin-top:0;
+}
+
+html {
+	height:100%;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Fenix', serif;
+	color:#68750C;
+	background-image: url("../images/gilgamesh-desktop.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:bottom right;
+}
+
+#alltext {
+	/*background-color:pink;*/
+	width:540px;
+	margin-left:10%;
+	margin-top:10%;
+}
+
+#quote {
+	text-transform:uppercase;
+	line-height: 90%;
+	font-size: 60px;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+h2 {
+	padding-top: 5%;
+	font-size:26px;
+}
+
+@media (max-width: 1420px) {
+	#alltext {
+		width:420px;
+		margin-left:10%;
+		margin-top:12%;
+	}
+
+	#quote {
+	text-transform:uppercase;
+	line-height: 90%;
+	font-size: 50px;
+	margin-bottom:0;
+	padding-bottom:0;
+	}
+
+	h2 {
+		padding-top: 5%;
+		font-size:24px;
+	}
+} 
+
+@media (max-width: 1300px) {
+	#alltext {
+		width:380px;
+		margin-left:10%;
+		margin-top:10%;
+	}
+
+	#quote {
+	text-transform:uppercase;
+	line-height: 90%;
+	font-size: 50px;
+	margin-bottom:0;
+	padding-bottom:0;
+	}
+
+	h2 {
+		padding-top: 5%;
+		font-size:24px;
+	}
+} 
+
+@media (max-width: 1300px) {
+	body {
+		padding: 0;
+		margin: 0;
+		font-family: 'Fenix', serif;
+		color:#68750C;
+		background-image: url("../images/gilgamesh-desktop.jpg");
+/*		background-size:cover;
+*/		background-repeat: no-repeat;
+		background-position:center;
+	}
+
+	#alltext {
+		width:380px;
+		margin-left:10%;
+		margin-top:10%;
+	}
+
+	#quote {
+	text-transform:uppercase;
+	line-height: 90%;
+	font-size: 50px;
+	margin-bottom:0;
+	padding-bottom:0;
+	}
+
+	h2 {
+		padding-top: 5%;
+		font-size:24px;
+	}
+} 
+
+@media (max-width: 1050px) {
+	body {
+		padding: 0;
+		margin: 0;
+		font-family: 'Fenix', serif;
+		color:#68750C;
+		background-image: url("../images/gilgamesh-desktop.jpg");
+/*		background-size:cover;
+*/		background-repeat: no-repeat;
+		background-position:center;
+	}
+
+	#alltext {
+		width:340px;
+		margin-left:8%;
+		margin-top:14%;
+	}
+
+	#quote {
+	text-transform:uppercase;
+	line-height: 90%;
+	font-size: 46px;
+	margin-bottom:0;
+	padding-bottom:0;
+	}
+
+	h2 {
+		padding-top: 5%;
+		font-size:24px;
+	}
+} 
+
+@media (max-width: 860px) {
+	body {
+		padding: 0;
+		margin: 0;
+		font-family: 'Fenix', serif;
+		color:#68750C;
+		background-image: url("../images/gilgamesh-desktop.jpg");
+/*		background-size:cover;
+*/		background-repeat: no-repeat;
+		background-position:center;
+	}
+
+	#alltext {
+		width:280px;
+		margin-left:8%;
+		margin-top:14%;
+	}
+
+	#quote {
+	text-transform:uppercase;
+	line-height: 90%;
+	font-size: 40px;
+	margin-bottom:0;
+	padding-bottom:0;
+	}
+
+	h2 {
+		padding-top: 5%;
+		font-size:24px;
+	}
+} 
+
+@media (max-width: 800px) {
+	body {
+		padding: 0;
+		margin: 0;
+		font-family: 'Fenix', serif;
+		color:#68750C;
+		background-image: url("../images/gilgamesh-desktop.jpg");
+/*		background-size:cover;
+*/		background-repeat: no-repeat;
+		background-position:center;
+	}
+
+	#alltext {
+		width:220px;
+		margin-left:8%;
+		margin-top:14%;
+	}
+
+	#quote {
+	text-transform:uppercase;
+	line-height: 90%;
+	font-size: 36px;
+	margin-bottom:0;
+	padding-bottom:0;
+	}
+
+	h2 {
+		padding-top: 5%;
+		font-size:24px;
+	}
+} 
+
+
+@media (max-width: 680px) {
+	body {
+		padding: 0;
+		margin: 0;
+		font-family: 'Fenix', serif;
+		color:#68750C;
+		background-image: url("../images/gilgamesh-mobile.jpg");
+/*		background-size:cover;
+*/		background-repeat: no-repeat;
+		background-position:center;
+	}
+
+	#alltext {
+		width:340px;
+		margin-left:10%;
+		margin-top:14%;
+	}
+
+	#quote {
+	text-transform:uppercase;
+	line-height: 90%;
+	font-size: 38px;
+	margin-bottom:0;
+	padding-bottom:0;
+	}
+
+	h2 {
+		padding-top: 5%;
+		font-size:24px;
+	}
+} 
