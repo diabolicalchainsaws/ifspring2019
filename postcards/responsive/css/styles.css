@@ -1,0 +1,154 @@
+a {
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	z-index:100;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin-top:0;
+}
+
+html {
+	height:100%;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Fenix', serif;
+	color:#6E192A;
+	background-image: url("../images/kefka-desktop.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:bottom right;
+}
+
+#alltext {
+/*	background-color:pink;
+	*/width:530px;
+	margin-left:12%;
+	margin-top:10%;
+}
+
+#quote {
+	text-transform:uppercase;
+	line-height: 90%;
+	font-size: 76px;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+h2 {
+	padding-top: 5%;
+	font-size:40px;
+}
+
+@media (min-width: 1450px) {
+	body {
+		background-size:92%;
+		background-attachment:fixed;
+		background-position:bottom right;
+	}
+
+	#alltext {
+		width:500px;
+		margin-left:14%;
+		margin-top:14%;
+	}
+
+	#quote {
+		text-transform:uppercase;
+		line-height: 90%;
+		font-size: 70px;
+		margin-bottom:0;
+		padding-bottom:0;
+	}
+
+	h2 {
+		padding-top: 5%;
+		font-size:30px;
+	}
+} 
+
+@media (max-width: 1300px) {
+	#alltext {
+		width:450px;
+		margin-left:10%;
+		margin-top:10%;
+	}
+
+	#quote {
+		text-transform:uppercase;
+		line-height: 90%;
+		font-size: 64px;
+		margin-bottom:0;
+		padding-bottom:0;
+	}
+
+	h2 {
+		padding-top: 5%;
+		font-size:30px;
+	}
+} 
+
+@media (max-width: 1210px) {
+	#alltext {
+		width:450px;
+		margin-left:8%;
+		margin-top:10%;
+	}
+
+	#quote {
+		text-transform:uppercase;
+		line-height: 90%;
+		font-size: 60px;
+		margin-bottom:0;
+		padding-bottom:0;
+	}
+
+	h2 {
+		padding-top: 5%;
+		font-size:26px;
+	}
+} 
+
+@media (max-width: 1100px) {
+	#alltext {
+		width:340px;
+		margin-left:8%;
+		margin-top:18%;
+	}
+
+	#quote {
+		text-transform:uppercase;
+		line-height: 90%;
+		font-size: 50px;
+		margin-bottom:0;
+		padding-bottom:0;
+	}
+
+	h2 {
+		padding-top: 5%;
+		font-size:24px;
+	}
+} 
+
+@media (max-width: 1040px) {
+	body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Fenix', serif;
+	color:#6E192A;
+	background-image: url("../images/kefka-mobile.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:bottom right;
+	}
+} 
