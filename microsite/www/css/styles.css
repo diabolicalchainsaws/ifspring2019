@@ -25,12 +25,14 @@ body {
 .bodycolumn {
 	width:65%;
 	margin: auto;
+	position:static;
 	z-index:89;
 }
 
 .centertextcolumn {
 	width:80%;
 	margin:auto;
+	position:static;
 	z-index:90;
 }
 
@@ -86,6 +88,7 @@ body {
 #preservation {
 	height:1000px;
 	background-color: rgba(243,239,234,1);
+	position:static;
 	z-index:99;
 }
 
@@ -104,6 +107,7 @@ body {
 	font-size: 12px;
 	background-color: #0C2126;
 	line-height: 6px;
+	position:static;
 	z-index:100;
 }
 
@@ -113,20 +117,13 @@ body {
 	line-height: 6px;
 }
 
-#greenpeacesection {
-	position:absolute;
-	display:inline-block;
-	height:100%;
+#greenpeacephoto {
 	width:100%;
-	z-index:2;
-}
-
-img #greenpeacesection {
-	height:400px;
-	padding-bottom:-1000px;
+	height:auto;
+	margin-top:-2000px;
 	display:inline-block;
-	width:auto;
 	position:relative;
 	bottom:0;
 	left:0;
+	z-index:1;
 }
