@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>My Now Amazing Webpage</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>  
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<style>
+	body {
+		background-color: pink;
+	}
+
+	.slider-container {
+		width:600px;
+		margin:auto;
+		background-color: yellow;
+	}
+
+	</style>
+	</head>
+  <body>
+
+  <div class="slider-container">
+    <img src="images/whale.jpg" alt="whale">
+    <img src="images/tree.jpg" alt="tree">
+    <img src="images/spider.jpg" alt="spider">
+    <img src="images/phytomorphic-glyphs.jpg" alt="phytomorphic-glyphs">
+    <img src="images/pelican.jpg" alt="pelican">
+    <img src="images/monkey.jpg" alt="monkey">
+    <img src="images/hummingbird.jpg" alt="hummingbird">
+    <img src="images/hands.jpg" alt="hands">
+    <img src="images/heron.jpg" alt="heron">
+    <img src="images/dog.jpg" alt="dog">
+    <img src="images/condor.jpg" alt="condor">
+    <img src="images/astronaut.jpg" alt="astronaut">
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slider-container').slick({
+      	slidesToShow: 1,
+  		slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+      });
+    });
+  </script>
+
+  </body>
+</html>
