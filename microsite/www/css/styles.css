@@ -19,7 +19,12 @@ body {
 }
 
 #logo {
+	display:block;
 	background-size: cover;
+}
+
+#logo-mobile {
+	display:none;
 }
 
 .bodycolumn {
@@ -103,6 +108,7 @@ body {
 	height:100px;
 	padding-top:3%;
 	padding-left:3%;
+	padding-right:3%;
 	color:white;
 	font-size: 12px;
 	background-color: #0C2126;
@@ -114,10 +120,10 @@ body {
 #footer a {
 	color:#B0CEE1;
 	text-decoration:none;
-	line-height: 6px;
+	line-height: 12px;
 }
 
-#greenpeacephoto {
+/*#greenpeacephoto {
 	width:100%;
 	height:auto;
 	margin-top:-2000px;
@@ -126,4 +132,351 @@ body {
 	bottom:0;
 	left:0;
 	z-index:1;
+}*/
+
+
+
+@media (max-width: 1370px) {
+	#rollingimagebox {
+	margin-top:0;
+	height:650px;
+	}
+}
+
+@media (max-width:1280px) {
+	#preservation {
+	height:1080px;
+	}	
+}
+
+@media (max-width:1232px) {
+	#introbox {
+	height:650px;
+	}
+	#rollingimagebox {
+	margin-top:0;
+	height:610px;
+	}
+}
+
+@media (max-width:1150px) {
+	#introbox {
+	height:660px;
+	}
+	#rollingimagebox {
+	margin-top:0;
+	height:580px;
+	}
+	#purpose {
+	height:1000px;
+	}
+	#preservation {
+	height:1180px;
+	}	
+}
+
+@media (max-width:1136px) {
+	#introbox {
+	height:670px;
+	}	
+}
+
+@media (max-width:1078px) {
+	#introbox {
+	height:700px;
+	}
+	#rollingimagebox {
+	height:510px;
+	}
+	#purpose {
+	height:1100px;
+	}
+	#preservation {
+	height:1250px;
+	}	
+}
+
+@media (max-width:1020px) {
+	body {
+		font-size:20px;
+	}
+	.bodycolumn {
+		width:75%;
+	}
+	.centertextcolumn {
+		width:80%;
+	}
+	#introbox {
+	height:430px;
+	}
+	#rollingimagebox {
+	height:580px;
+	}
+	#purpose {
+	height:650px;
+	}
+	#preservation {
+	height:700px;
+	}	
+}
+
+@media (max-width:936px) {
+	body {
+		font-size:20px;
+	}
+	.bodycolumn {
+		width:80%;
+	}
+	.centertextcolumn {
+		width:80%;
+	}
+	#introbox {
+	height:430px;
+	}
+	#rollingimagebox {
+	height:540px;
+	}
+	#purpose {
+	height:650px;
+	}
+	#preservation {
+	height:700px;
+	}	
+}
+
+@media (max-width:800px) {
+	#rollingimagebox {
+	height:500px;
+	}
+}
+
+@media (max-width:740px) {
+	#rollingimagebox {
+	height:460px;
+	}
+	#purpose {
+	height:660px;
+	}
+	#preservation {
+	height:760px;
+	}	
+}
+
+@media (max-width:718px) {
+	#introbox {
+	height:450px;
+	}
+	#rollingimagebox {
+	height:440px;
+	}
+	#purpose {
+	height:660px;
+	}
+	#preservation {
+	height:780px;
+	}	
+}
+
+@media (max-width:714px) {
+	#introbox {
+	height:470px;
+	}
+	#rollingimagebox {
+	height:425px;
+	}
+	#purpose {
+	height:670px;
+	}
+	#preservation {
+	height:800px;
+	}	
+}
+
+@media (max-width:669px) {
+	#introbox {
+	height:490px;
+	}
+	#rollingimagebox {
+	height:410px;
+	}
+	#purpose {
+	height:710px;
+	}
+	#preservation {
+	height:810px;
+	}	
+}
+
+@media (max-width:620px) {
+	#logo {
+	display:none;
+	}
+	#logo-mobile {
+	display:block;
+	background-size: cover;
+	}
+	#introbox {
+	height:520px;
+	}
+	#rollingimagebox {
+	height:370px;
+	}
+	#purpose {
+	height:770px;
+	}
+	#preservation {
+	height:880px;
+	}	
+	#footer {
+	font-size: 8px;
+	}
+}
+
+@media (max-width:580px) {
+	#introbox {
+	height:560px;
+	}
+	#rollingimagebox {
+	height:350px;
+	}
+	#preservation {
+	height:940px;
+	}	
+}
+
+@media (max-width:525px) {
+	#introbox {
+	height:600px;
+	}
+	#rollingimagebox {
+	height:320px;
+	}
+	#purpose {
+	height:810px;
+	}
+	#preservation {
+	height:1000px;
+	}	
+}
+
+@media (max-width:485px) {
+	#introbox {
+	height:600px;
+	}
+	#rollingimagebox {
+	height:300px;
+	}
+	#purpose {
+	height:810px;
+	}
+	#preservation {
+	height:1000px;
+	}	
+}
+
+@media (max-width:482px) {
+	body {
+	font-size:20px;
+	}
+	.bodycolumn {
+	width:100%;
+	}
+	#gradientspace {
+	height:250px;
+	margin-top: -280px;
+	}
+	#introbox {
+	height:580px;
+	}
+	#rollingimagebox {
+	height:410px;
+	}
+	.slider-container {
+	padding-top:14%;
+	}
+	#purpose {
+	height:810px;
+	}
+	#preservation {
+	height:900px;
+	}	
+	#footer {
+	height:80px;
+	padding-top:3%;
+	padding-left:3%;
+	}
+}
+
+@media (max-width:437px) {
+	#introbox {
+	height:580px;
+	}
+	#rollingimagebox {
+	height:370px;
+	}
+	.slider-container {
+	padding-top:14%;
+	}
+	#purpose {
+	height:810px;
+	}
+	#preservation {
+	height:980px;
+	}	
+}
+
+@media (max-width:401px) {
+	#introbox {
+	height:620px;
+	}
+	#rollingimagebox {
+	height:350px;
+	}
+	.slider-container {
+	padding-top:14%;
+	}
+	#purpose {
+	height:830px;
+	}
+	#preservation {
+	height:1100px;
+	}	
+}
+
+@media (max-width:375px) {
+	#introbox {
+	height:650px;
+	}
+	#rollingimagebox {
+	height:340px;
+	}
+	#purpose {
+	height:870px;
+	}
+	#preservation {
+	height:1100px;
+	}	
+}
+
+@media (max-width:362px) {
+	#introbox {
+	height:670px;
+	}
+	#rollingimagebox {
+	height:320px;
+	}
+	#purpose {
+	height:890px;
+	}
+	#preservation {
+	height:1200px;
+	}	
+	#footer {
+	height:90px;
+	padding-top:5%;
+	padding-left:3%;
+	padding-right:3%;
+	color:white;
+	font-size: 6px;
+	}
 }
